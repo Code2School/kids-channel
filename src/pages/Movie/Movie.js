@@ -7,11 +7,17 @@ const movieObj = {
 	'word-world': {
 		url: 'https://www.youtube.com/watch?v=hWnDE_W-hcY',
 	},
+	'word-world-robot': {
+		url: 'https://www.youtube.com/watch?v=sWkBbMjDSZ8',
+	},
 	'barney': {
 		url: 'https://www.youtube.com/watch?v=xWdPmK9B2pA',
 	},
 	'higglytown-heroes': {
 		url: 'https://www.youtube.com/watch?v=OkwwSS5JcGI',
+	},
+	'little-einsteins': {
+		url: 'https://www.youtube.com/watch?v=uquqOTNAUjU',
 	}
 }
 
