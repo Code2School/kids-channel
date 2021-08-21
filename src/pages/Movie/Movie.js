@@ -18,6 +18,9 @@ const movieObj = {
 	},
 	'little-einsteins': {
 		url: 'https://www.youtube.com/watch?v=uquqOTNAUjU',
+	},
+	'timmy-time': {
+		url: 'https://www.youtube.com/watch?v=zEN5eyIHhwU',
 	}
 }
 

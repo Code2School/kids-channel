@@ -6,6 +6,7 @@ import barney from '../../images/movies/barney.webp';
 import higglytown_heroes from '../../images/movies/higglytown_heroes.jpeg';
 import little_einsteins from '../../images/movies/little_einsteins.webp';
 import word_world_robot from '../../images/movies/word_world_robot.webp';
+import timmy_time from '../../images/movies/timmy_time.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
@@ -16,16 +17,16 @@ const movies = [
 		to: '/movies/little-einsteins'
 	},
 	{
-		id: 'BARNEY',
-		name: 'Barney and friends',
-		url: barney,
-		to: '/movies/barney'
-	},
-	{
 		id: 'WORD_WORLD_ROBOT',
 		name: 'Word World Robot',
 		url: word_world_robot,
 		to: '/movies/word-world-robot'
+	},
+	{
+		id: 'TIMMY_TIME',
+		name: 'Timmy Time',
+		url: timmy_time,
+		to: '/movies/timmy-time'
 	},
 	{
 		id: 'WORD_WORLD',
@@ -38,7 +39,13 @@ const movies = [
 		name: 'Higglytown Heroes',
 		url: higglytown_heroes,
 		to: '/movies/higglytown-heroes'
-	}
+	},
+	{
+		id: 'BARNEY',
+		name: 'Barney and friends',
+		url: barney,
+		to: '/movies/barney'
+	},
 ]
 
 const Home = () => {
