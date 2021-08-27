@@ -7,8 +7,14 @@ const movieObj = {
 	'word-world': {
 		url: 'https://www.youtube.com/watch?v=hWnDE_W-hcY',
 	},
-	'word-world-robot': {
-		url: 'https://www.youtube.com/watch?v=sWkBbMjDSZ8',
+	'handy-manny-a-stiky-fix': {
+		url: 'https://www.youtube.com/watch?v=acVnE7HD5e8&list=PLJATv1N_YfsEco5N4JoNpKyOGWHI5FnoI',
+	},
+	'our-planet-deserts': {
+		url: 'https://www.youtube.com/watch?v=XmtXC_n6X6Q',
+	},
+	'our-planet-forest': {
+		url: 'https://www.youtube.com/watch?v=JkaxUblCGz0',
 	},
 	'barney': {
 		url: 'https://www.youtube.com/watch?v=xWdPmK9B2pA',

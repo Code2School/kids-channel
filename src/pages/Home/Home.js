@@ -5,7 +5,8 @@ import word_world from '../../images/movies/word_world.webp';
 import barney from '../../images/movies/barney.webp';
 import higglytown_heroes from '../../images/movies/higglytown_heroes.jpeg';
 import little_einsteins from '../../images/movies/little_einsteins.webp';
-import word_world_robot from '../../images/movies/word_world_robot.webp';
+import handy_manny_a_stiky_fix from '../../images/movies/handy_manny_a_stiky_fix.webp';
+import our_planet_deserts from '../../images/movies/our_planet_deserts.webp';
 import timmy_time from '../../images/movies/timmy_time.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
@@ -17,10 +18,16 @@ const movies = [
 		to: '/movies/little-einsteins'
 	},
 	{
-		id: 'WORD_WORLD_ROBOT',
-		name: 'Word World Robot',
-		url: word_world_robot,
-		to: '/movies/word-world-robot'
+		id: 'HANDY_MANNY',
+		name: 'Handy Manny A Stiky Fix',
+		url: handy_manny_a_stiky_fix,
+		to: '/movies/handy-manny-a-stiky-fix'
+	},
+	{
+		id: 'OUR_PLANET_DESERTS',
+		name: 'Our Planet deserts',
+		url: our_planet_deserts,
+		to: '/movies/our-planet-deserts'
 	},
 	{
 		id: 'TIMMY_TIME',
