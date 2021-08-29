@@ -5,6 +5,7 @@ import word_world from '../../images/movies/word_world.webp';
 import barney from '../../images/movies/barney.webp';
 import higglytown_heroes from '../../images/movies/higglytown_heroes.jpeg';
 import little_einsteins from '../../images/movies/little_einsteins.webp';
+import baby_einstein_music_fes from '../../images/movies/baby_einstein_music_fes.webp';
 import handy_manny_a_stiky_fix from '../../images/movies/handy_manny_a_stiky_fix.webp';
 import our_planet_deserts from '../../images/movies/our_planet_deserts.webp';
 import timmy_time from '../../images/movies/timmy_time.webp';
@@ -16,6 +17,12 @@ const movies = [
 		name: 'Little Einsteins',
 		url: little_einsteins,
 		to: '/movies/little-einsteins'
+	},
+	{
+		id: 'BABY_EINSTEIN_MUSIC_FES',
+		name: 'Baby Einstein Baby Mozart Music Festival',
+		url: baby_einstein_music_fes,
+		to: '/movies/baby-einstein-music-fes'
 	},
 	{
 		id: 'HANDY_MANNY',

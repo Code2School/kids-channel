@@ -10,6 +10,9 @@ const movieObj = {
 	'handy-manny-a-stiky-fix': {
 		url: 'https://www.youtube.com/watch?v=acVnE7HD5e8&list=PLJATv1N_YfsEco5N4JoNpKyOGWHI5FnoI',
 	},
+	'baby-einstein-music-fes': {
+		url: 'https://www.youtube.com/watch?v=_HbEejSqE9Y',
+	},
 	'our-planet-deserts': {
 		url: 'https://www.youtube.com/watch?v=XmtXC_n6X6Q',
 	},
