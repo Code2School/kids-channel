@@ -30,7 +30,13 @@ const movieObj = {
 	},
 	'timmy-time': {
 		url: 'https://www.youtube.com/watch?v=zEN5eyIHhwU',
-	}
+	},
+	'winnie-the-pooh-part01': {
+		url: 'https://www.youtube.com/watch?v=HwCewzY9OU4&list=PLJATv1N_YfsH8b0QegaKbVBZJ11VsSRMi',
+	},
+	'big-red-dog01': {
+		url: 'https://www.youtube.com/watch?v=p6t20VoqJ90',
+	},
 }
 
 const Movie = () => {
