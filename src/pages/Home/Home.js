@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import classes from './Home.module.css';
 import word_world from '../../images/movies/word_world.webp';
 import barney from '../../images/movies/barney.webp';
+import barney_a_game from '../../images/movies/barney_a_game.webp';
 import higglytown_heroes from '../../images/movies/higglytown_heroes.jpeg';
 import little_einsteins from '../../images/movies/little_einsteins.webp';
 import baby_einstein_music_fes from '../../images/movies/baby_einstein_music_fes.webp';
@@ -15,22 +16,28 @@ import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
 	{
+		id: 'BARNEY_A_GAME',
+		name: 'Barney |A Game for Everyone',
+		url: barney_a_game,
+		to: '/movies/barney-a-game'
+	},
+	{
 		id: 'WINNIE_THE_POOH_PART01',
 		name: 'Winnie the Pooh part 01',
 		url: winnie_the_pooh_part01,
 		to: '/movies/winnie-the-pooh-part01'
 	},
 	{
-		id: 'LITTLE_EINSTEINS',
-		name: 'Little Einsteins',
-		url: little_einsteins,
-		to: '/movies/little-einsteins'
-	},
-	{
 		id: 'BIG_RED_DOG_01',
 		name: 'Clifford and the Bean Stalk',
 		url: big_red_dog01,
 		to: '/movies/big-red-dog01'
+	},
+	{
+		id: 'LITTLE_EINSTEINS',
+		name: 'Little Einsteins',
+		url: little_einsteins,
+		to: '/movies/little-einsteins'
 	},
 	{
 		id: 'BABY_EINSTEIN_MUSIC_FES',

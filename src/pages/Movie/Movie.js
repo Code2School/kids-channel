@@ -37,6 +37,9 @@ const movieObj = {
 	'big-red-dog01': {
 		url: 'https://www.youtube.com/watch?v=p6t20VoqJ90',
 	},
+	'barney-a-game': {
+		url: 'https://www.youtube.com/watch?v=FuX7swmiYRA',
+	},
 }
 
 const Movie = () => {
