@@ -40,6 +40,12 @@ const movieObj = {
 	'barney-a-game': {
 		url: 'https://www.youtube.com/watch?v=FuX7swmiYRA',
 	},
+	'mickey-mouse-club': {
+		url: 'https://www.youtube.com/watch?v=DayPXeonH3Y',
+	},
+	'animal-mechanical': {
+		url: 'https://www.youtube.com/watch?v=QMGHHBRcaKs',
+	},
 }
 
 const Movie = () => {

@@ -12,6 +12,8 @@ import our_planet_deserts from '../../images/movies/our_planet_deserts.webp';
 import timmy_time from '../../images/movies/timmy_time.webp';
 import winnie_the_pooh_part01 from '../../images/movies/winnie_the_pooh_part01.webp';
 import big_red_dog01 from '../../images/movies/big_red_dog01.webp';
+import mickey_mouse_club from '../../images/movies/mickey_mouse_club.webp';
+import animal_mechanical from '../../images/movies/animal_mechanical.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
@@ -22,16 +24,28 @@ const movies = [
 		to: '/movies/barney-a-game'
 	},
 	{
-		id: 'WINNIE_THE_POOH_PART01',
-		name: 'Winnie the Pooh part 01',
-		url: winnie_the_pooh_part01,
-		to: '/movies/winnie-the-pooh-part01'
+		id: 'ANIMAL_MECHANICAL',
+		name: 'Animal Mechanical',
+		url: animal_mechanical,
+		to: '/movies/animal-mechanical'
+	},
+	{
+		id: 'MICKEY_MOUSE_CLUB',
+		name: 'Mickey Mouse Clubhouse',
+		url: mickey_mouse_club,
+		to: '/movies/mickey-mouse-club'
 	},
 	{
 		id: 'BIG_RED_DOG_01',
 		name: 'Clifford and the Bean Stalk',
 		url: big_red_dog01,
 		to: '/movies/big-red-dog01'
+	},
+	{
+		id: 'WINNIE_THE_POOH_PART01',
+		name: 'Winnie the Pooh part 01',
+		url: winnie_the_pooh_part01,
+		to: '/movies/winnie-the-pooh-part01'
 	},
 	{
 		id: 'LITTLE_EINSTEINS',
