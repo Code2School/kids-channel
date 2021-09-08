@@ -46,6 +46,9 @@ const movieObj = {
 	'animal-mechanical': {
 		url: 'https://www.youtube.com/watch?v=QMGHHBRcaKs',
 	},
+	'madeline-s1-ep1': {
+		url: 'https://www.youtube.com/watch?v=_2kQh3dZmk8',
+	},
 }
 
 const Movie = () => {

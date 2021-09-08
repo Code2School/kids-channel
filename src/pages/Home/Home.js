@@ -14,14 +14,15 @@ import winnie_the_pooh_part01 from '../../images/movies/winnie_the_pooh_part01.w
 import big_red_dog01 from '../../images/movies/big_red_dog01.webp';
 import mickey_mouse_club from '../../images/movies/mickey_mouse_club.webp';
 import animal_mechanical from '../../images/movies/animal_mechanical.webp';
+import madeline_s1_ep1 from '../../images/movies/madeline_s1_ep1.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
 	{
-		id: 'BARNEY_A_GAME',
-		name: 'Barney |A Game for Everyone',
-		url: barney_a_game,
-		to: '/movies/barney-a-game'
+		id: 'MADELINE_S1_EP1',
+		name: 'Madeline\'s Christmas',
+		url: madeline_s1_ep1,
+		to: '/movies/madeline-s1-ep1'
 	},
 	{
 		id: 'ANIMAL_MECHANICAL',
@@ -34,6 +35,12 @@ const movies = [
 		name: 'Mickey Mouse Clubhouse',
 		url: mickey_mouse_club,
 		to: '/movies/mickey-mouse-club'
+	},
+	{
+		id: 'BARNEY_A_GAME',
+		name: 'Barney |A Game for Everyone',
+		url: barney_a_game,
+		to: '/movies/barney-a-game'
 	},
 	{
 		id: 'BIG_RED_DOG_01',
