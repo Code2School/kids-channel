@@ -15,14 +15,28 @@ import big_red_dog01 from '../../images/movies/big_red_dog01.webp';
 import mickey_mouse_club from '../../images/movies/mickey_mouse_club.webp';
 import animal_mechanical from '../../images/movies/animal_mechanical.webp';
 import madeline_s1_ep1 from '../../images/movies/madeline_s1_ep1.webp';
+import baby_einstein_on_the_farm from '../../images/movies/baby_einstein_on_the_farm.webp';
+import word_world_sand_castle from '../../images/movies/word_world_sand_castle.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
+	{
+		id: 'BABY_EINSTEIN_ON_FARM',
+		name: 'Baby MacDonald',
+		url: baby_einstein_on_the_farm,
+		to: '/movies/baby-einstein-on-farm'
+	},
 	{
 		id: 'MADELINE_S1_EP1',
 		name: 'Madeline\'s Christmas',
 		url: madeline_s1_ep1,
 		to: '/movies/madeline-s1-ep1'
+	},
+	{
+		id: 'WORD_WORLD_SAND_CASTLE',
+		name: 'Castles in the Sea/Get Your Coat | WordWorld',
+		url: word_world_sand_castle,
+		to: '/movies/word-world-sand-castle'
 	},
 	{
 		id: 'ANIMAL_MECHANICAL',

@@ -49,6 +49,12 @@ const movieObj = {
 	'madeline-s1-ep1': {
 		url: 'https://www.youtube.com/watch?v=_2kQh3dZmk8',
 	},
+	'baby-einstein-on-farm': {
+		url: 'https://www.youtube.com/watch?v=xbMF6zBzaKI',
+	},
+	'word-world-sand-castle': {
+		url: 'https://www.youtube.com/watch?v=c5pfZuHJm0w',
+	},
 }
 
 const Movie = () => {
