@@ -52,8 +52,14 @@ const movieObj = {
 	'baby-einstein-on-farm': {
 		url: 'https://www.youtube.com/watch?v=xbMF6zBzaKI',
 	},
+	'winnie-the-pooh-part02': {
+		url: 'https://www.youtube.com/watch?v=V4d95u2VomI&list=PLJATv1N_YfsENIUDpZ4A5MB0kVUnh782x',
+	},
 	'word-world-sand-castle': {
 		url: 'https://www.youtube.com/watch?v=c5pfZuHJm0w',
+	},
+	'big-red-dog02': {
+		url: 'https://www.youtube.com/watch?v=wudQ9XA4Ue0',
 	},
 }
 

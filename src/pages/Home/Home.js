@@ -17,9 +17,28 @@ import animal_mechanical from '../../images/movies/animal_mechanical.webp';
 import madeline_s1_ep1 from '../../images/movies/madeline_s1_ep1.webp';
 import baby_einstein_on_the_farm from '../../images/movies/baby_einstein_on_the_farm.webp';
 import word_world_sand_castle from '../../images/movies/word_world_sand_castle.webp';
+import big_red_dog02 from '../../images/movies/big_red_dog02.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
+	{
+		id: 'BIG_RED_DOG_02',
+		name: 'Cleo Fair Share',
+		url: big_red_dog02,
+		to: '/movies/big-red-dog02'
+	},
+	{
+		id: 'WINNIE_THE_POOH_PART02',
+		name: 'Winnie the Pooh part 02',
+		url: winnie_the_pooh_part01,
+		to: '/movies/winnie-the-pooh-part02'
+	},
+	{
+		id: 'WORD_WORLD_SAND_CASTLE',
+		name: 'Castles in the Sea/Get Your Coat | WordWorld',
+		url: word_world_sand_castle,
+		to: '/movies/word-world-sand-castle'
+	},
 	{
 		id: 'BABY_EINSTEIN_ON_FARM',
 		name: 'Baby MacDonald',
@@ -31,12 +50,6 @@ const movies = [
 		name: 'Madeline\'s Christmas',
 		url: madeline_s1_ep1,
 		to: '/movies/madeline-s1-ep1'
-	},
-	{
-		id: 'WORD_WORLD_SAND_CASTLE',
-		name: 'Castles in the Sea/Get Your Coat | WordWorld',
-		url: word_world_sand_castle,
-		to: '/movies/word-world-sand-castle'
 	},
 	{
 		id: 'ANIMAL_MECHANICAL',
