@@ -18,6 +18,8 @@ import madeline_s1_ep1 from '../../images/movies/madeline_s1_ep1.webp';
 import baby_einstein_on_the_farm from '../../images/movies/baby_einstein_on_the_farm.webp';
 import word_world_sand_castle from '../../images/movies/word_world_sand_castle.webp';
 import big_red_dog02 from '../../images/movies/big_red_dog02.webp';
+import pocoyo_s2_p5 from '../../images/movies/pocoyo_s2_p5.webp';
+import pocoyo_s1_p2 from '../../images/movies/pocoyo_s1_p2.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
@@ -28,16 +30,28 @@ const movies = [
 		to: '/movies/big-red-dog02'
 	},
 	{
-		id: 'WINNIE_THE_POOH_PART02',
-		name: 'Winnie the Pooh part 02',
-		url: winnie_the_pooh_part01,
-		to: '/movies/winnie-the-pooh-part02'
-	},
-	{
 		id: 'WORD_WORLD_SAND_CASTLE',
 		name: 'Castles in the Sea/Get Your Coat | WordWorld',
 		url: word_world_sand_castle,
 		to: '/movies/word-world-sand-castle'
+	},
+	{
+		id: 'POCOYO_S1_P2',
+		name: 'Pocoyo season1 part2',
+		url: pocoyo_s1_p2,
+		to: '/movies/pocoyo-s1-p2'
+	},
+	{
+		id: 'POCOYO_S2_P5',
+		name: 'Pocoyo season2 part5',
+		url: pocoyo_s2_p5,
+		to: '/movies/pocoyo-s2-p5'
+	},
+	{
+		id: 'WINNIE_THE_POOH_PART02',
+		name: 'Winnie the Pooh part 02',
+		url: winnie_the_pooh_part01,
+		to: '/movies/winnie-the-pooh-part02'
 	},
 	{
 		id: 'BABY_EINSTEIN_ON_FARM',

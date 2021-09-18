@@ -61,6 +61,12 @@ const movieObj = {
 	'big-red-dog02': {
 		url: 'https://www.youtube.com/watch?v=wudQ9XA4Ue0',
 	},
+	'pocoyo-s1-p2': {
+		url: 'https://www.youtube.com/watch?v=5frHoL7zAso',
+	},
+	'pocoyo-s2-p5': {
+		url: 'https://www.youtube.com/watch?v=P28uscmoEfY',
+	},
 }
 
 const Movie = () => {
