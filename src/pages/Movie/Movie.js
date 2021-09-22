@@ -67,6 +67,9 @@ const movieObj = {
 	'pocoyo-s2-p5': {
 		url: 'https://www.youtube.com/watch?v=P28uscmoEfY',
 	},
+	'kid-chef-part1': {
+		url: 'https://www.youtube.com/watch?v=j6rxiZTtMAA&list=PLJATv1N_YfsEXasnhBtf6nvv9z2HyeLcC',
+	},
 }
 
 const Movie = () => {
