@@ -21,6 +21,7 @@ import big_red_dog02 from '../../images/movies/big_red_dog02.webp';
 import pocoyo_s2_p5 from '../../images/movies/pocoyo_s2_p5.webp';
 import pocoyo_s1_p2 from '../../images/movies/pocoyo_s1_p2.webp';
 import kid_chef_part1 from '../../images/movies/kid_chef_part1.webp';
+import barney_a_counting from '../../images/movies/barney_a_counting.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
@@ -29,6 +30,12 @@ const movies = [
 		name: 'Cleo Fair Share',
 		url: big_red_dog02,
 		to: '/movies/big-red-dog02'
+	},
+	{
+		id: 'BARNEY_A_COUNTING',
+		name: 'Barney | A-Counting We Will Go!',
+		url: barney_a_counting,
+		to: '/movies/barney-a-counting'
 	},
 	{
 		id: 'WORD_WORLD_SAND_CASTLE',

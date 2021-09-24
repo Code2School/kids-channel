@@ -70,6 +70,9 @@ const movieObj = {
 	'kid-chef-part1': {
 		url: 'https://www.youtube.com/watch?v=j6rxiZTtMAA&list=PLJATv1N_YfsEXasnhBtf6nvv9z2HyeLcC',
 	},
+	'barney-a-counting': {
+		url: 'https://www.youtube.com/watch?v=xR2xLLq2s1Y',
+	},
 }
 
 const Movie = () => {
