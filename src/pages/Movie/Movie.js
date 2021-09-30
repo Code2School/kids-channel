@@ -73,6 +73,12 @@ const movieObj = {
 	'barney-a-counting': {
 		url: 'https://www.youtube.com/watch?v=xR2xLLq2s1Y',
 	},
+	'our-planet-coastal-sea': {
+		url: 'https://www.youtube.com/watch?v=r9PeYPHdpNo',
+	},
+	'kid-chef-part2': {
+		url: 'https://www.youtube.com/watch?v=c6EHxssHX7E&list=PLJATv1N_YfsG2B8sP4iec2NgoUlQXUD4q',
+	},
 }
 
 const Movie = () => {

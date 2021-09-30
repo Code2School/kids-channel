@@ -21,10 +21,30 @@ import big_red_dog02 from '../../images/movies/big_red_dog02.webp';
 import pocoyo_s2_p5 from '../../images/movies/pocoyo_s2_p5.webp';
 import pocoyo_s1_p2 from '../../images/movies/pocoyo_s1_p2.webp';
 import kid_chef_part1 from '../../images/movies/kid_chef_part1.webp';
+import kid_chef_part2 from '../../images/movies/kid_chef_part2.webp';
 import barney_a_counting from '../../images/movies/barney_a_counting.webp';
+import our_planet_coastal_sea from '../../images/movies/our_planet_coastal_sea.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
+	{
+		id: 'OUR_PLANET_COASTAL_SEA',
+		name: 'Our Planet | Coastal Seas',
+		url: our_planet_coastal_sea,
+		to: '/movies/our-planet-coastal-sea'
+	},
+	{
+		id: 'WORD_WORLD_SAND_CASTLE',
+		name: 'Castles in the Sea/Get Your Coat | WordWorld',
+		url: word_world_sand_castle,
+		to: '/movies/word-world-sand-castle'
+	},
+	{
+		id: 'KID_CHEF_PART2',
+		name: 'Kid chef part 02',
+		url: kid_chef_part2,
+		to: '/movies/kid-chef-part2'
+	},
 	{
 		id: 'BIG_RED_DOG_02',
 		name: 'Cleo Fair Share',
@@ -36,12 +56,6 @@ const movies = [
 		name: 'Barney | A-Counting We Will Go!',
 		url: barney_a_counting,
 		to: '/movies/barney-a-counting'
-	},
-	{
-		id: 'WORD_WORLD_SAND_CASTLE',
-		name: 'Castles in the Sea/Get Your Coat | WordWorld',
-		url: word_world_sand_castle,
-		to: '/movies/word-world-sand-castle'
 	},
 	{
 		id: 'KID_CHEF_PART1',
