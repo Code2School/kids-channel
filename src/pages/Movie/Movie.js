@@ -79,6 +79,12 @@ const movieObj = {
 	'kid-chef-part2': {
 		url: 'https://www.youtube.com/watch?v=c6EHxssHX7E&list=PLJATv1N_YfsG2B8sP4iec2NgoUlQXUD4q',
 	},
+	'higglytown-heroes-s1-ep3': {
+		url: 'https://www.youtube.com/watch?v=DjW4c9UxScY',
+	},
+	'winnie-the-pooh-part03': {
+		url: 'https://www.youtube.com/watch?v=KlrrbLAHB0M&list=PLJATv1N_YfsEScuMRqIG8_zdw0COC8QEo',
+	},
 }
 
 const Movie = () => {

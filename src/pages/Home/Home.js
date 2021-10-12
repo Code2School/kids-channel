@@ -24,26 +24,40 @@ import kid_chef_part1 from '../../images/movies/kid_chef_part1.webp';
 import kid_chef_part2 from '../../images/movies/kid_chef_part2.webp';
 import barney_a_counting from '../../images/movies/barney_a_counting.webp';
 import our_planet_coastal_sea from '../../images/movies/our_planet_coastal_sea.webp';
+import higgletown_heroes_s1_ep3 from '../../images/movies/higgletown_heroes_s1_ep3.webp';
+import winnie_the_pooh_part03 from '../../images/movies/winnie_the_pooh_part03.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
 	{
-		id: 'OUR_PLANET_COASTAL_SEA',
-		name: 'Our Planet | Coastal Seas',
-		url: our_planet_coastal_sea,
-		to: '/movies/our-planet-coastal-sea'
+		id: 'HIGGLY_HEROES_S1_EP3',
+		name: 'Flappy\'s Not Happy/An Electric Evening',
+		url: higgletown_heroes_s1_ep3,
+		to: '/movies/higglytown-heroes-s1-ep3'
 	},
 	{
-		id: 'WORD_WORLD_SAND_CASTLE',
-		name: 'Castles in the Sea/Get Your Coat | WordWorld',
-		url: word_world_sand_castle,
-		to: '/movies/word-world-sand-castle'
+		id: 'WINNIE_THE_POOH_PART03',
+		name: 'Winnie the Pooh part 03',
+		url: winnie_the_pooh_part03,
+		to: '/movies/winnie-the-pooh-part03'
+	},
+	{
+		id: 'POCOYO_S2_P5',
+		name: 'Pocoyo season2 part5',
+		url: pocoyo_s2_p5,
+		to: '/movies/pocoyo-s2-p5'
 	},
 	{
 		id: 'KID_CHEF_PART2',
 		name: 'Kid chef part 02',
 		url: kid_chef_part2,
 		to: '/movies/kid-chef-part2'
+	},
+	{
+		id: 'OUR_PLANET_COASTAL_SEA',
+		name: 'Our Planet | Coastal Seas',
+		url: our_planet_coastal_sea,
+		to: '/movies/our-planet-coastal-sea'
 	},
 	{
 		id: 'BIG_RED_DOG_02',
@@ -62,12 +76,6 @@ const movies = [
 		name: 'Kid chef part 01',
 		url: kid_chef_part1,
 		to: '/movies/kid-chef-part1'
-	},
-	{
-		id: 'POCOYO_S2_P5',
-		name: 'Pocoyo season2 part5',
-		url: pocoyo_s2_p5,
-		to: '/movies/pocoyo-s2-p5'
 	},
 	{
 		id: 'POCOYO_S1_P2',
