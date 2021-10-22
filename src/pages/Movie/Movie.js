@@ -85,6 +85,9 @@ const movieObj = {
 	'winnie-the-pooh-part03': {
 		url: 'https://www.youtube.com/watch?v=KlrrbLAHB0M&list=PLJATv1N_YfsEScuMRqIG8_zdw0COC8QEo',
 	},
+	'barney-can-count-on-me': {
+		url: 'https://www.youtube.com/watch?v=lDgD-Fsu96s',
+	},
 }
 
 const Movie = () => {

@@ -16,7 +16,6 @@ import mickey_mouse_club from '../../images/movies/mickey_mouse_club.webp';
 import animal_mechanical from '../../images/movies/animal_mechanical.webp';
 import madeline_s1_ep1 from '../../images/movies/madeline_s1_ep1.webp';
 import baby_einstein_on_the_farm from '../../images/movies/baby_einstein_on_the_farm.webp';
-import word_world_sand_castle from '../../images/movies/word_world_sand_castle.webp';
 import big_red_dog02 from '../../images/movies/big_red_dog02.webp';
 import pocoyo_s2_p5 from '../../images/movies/pocoyo_s2_p5.webp';
 import pocoyo_s1_p2 from '../../images/movies/pocoyo_s1_p2.webp';
@@ -26,6 +25,7 @@ import barney_a_counting from '../../images/movies/barney_a_counting.webp';
 import our_planet_coastal_sea from '../../images/movies/our_planet_coastal_sea.webp';
 import higgletown_heroes_s1_ep3 from '../../images/movies/higgletown_heroes_s1_ep3.webp';
 import winnie_the_pooh_part03 from '../../images/movies/winnie_the_pooh_part03.webp';
+import barney_count_on_me from '../../images/movies/barney_count_on_me.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
@@ -40,6 +40,12 @@ const movies = [
 		name: 'Winnie the Pooh part 03',
 		url: winnie_the_pooh_part03,
 		to: '/movies/winnie-the-pooh-part03'
+	},
+	{
+		id: 'BARNEY_CAN_COUNT_ON_ME',
+		name: 'Barney | You Can Count on Me!',
+		url: barney_count_on_me,
+		to: '/movies/barney-can-count-on-me'
 	},
 	{
 		id: 'POCOYO_S2_P5',
