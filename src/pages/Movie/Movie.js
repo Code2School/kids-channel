@@ -88,6 +88,9 @@ const movieObj = {
 	'barney-can-count-on-me': {
 		url: 'https://www.youtube.com/watch?v=lDgD-Fsu96s',
 	},
+	'kid-cooking': {
+		url: 'https://www.youtube.com/watch?v=aP8v8G1CkCI',
+	},
 }
 
 const Movie = () => {

@@ -26,14 +26,15 @@ import our_planet_coastal_sea from '../../images/movies/our_planet_coastal_sea.w
 import higgletown_heroes_s1_ep3 from '../../images/movies/higgletown_heroes_s1_ep3.webp';
 import winnie_the_pooh_part03 from '../../images/movies/winnie_the_pooh_part03.webp';
 import barney_count_on_me from '../../images/movies/barney_count_on_me.webp';
+import kid_cooking from '../../images/movies/kid_cooking.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
 	{
-		id: 'HIGGLY_HEROES_S1_EP3',
-		name: 'Flappy\'s Not Happy/An Electric Evening',
-		url: higgletown_heroes_s1_ep3,
-		to: '/movies/higglytown-heroes-s1-ep3'
+		id: 'KID_COOKING',
+		name: 'Kid MasterChef vs Adult Tasty Chef',
+		url: kid_cooking,
+		to: '/movies/kid-cooking'
 	},
 	{
 		id: 'WINNIE_THE_POOH_PART03',
@@ -52,6 +53,12 @@ const movies = [
 		name: 'Pocoyo season2 part5',
 		url: pocoyo_s2_p5,
 		to: '/movies/pocoyo-s2-p5'
+	},
+	{
+		id: 'HIGGLY_HEROES_S1_EP3',
+		name: 'Flappy\'s Not Happy/An Electric Evening',
+		url: higgletown_heroes_s1_ep3,
+		to: '/movies/higglytown-heroes-s1-ep3'
 	},
 	{
 		id: 'KID_CHEF_PART2',
