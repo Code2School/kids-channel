@@ -79,6 +79,12 @@ const movieObj = {
 	'kid-chef-part2': {
 		url: 'https://www.youtube.com/watch?v=c6EHxssHX7E&list=PLJATv1N_YfsG2B8sP4iec2NgoUlQXUD4q',
 	},
+	'kid-chef-part3': {
+		url: 'https://www.youtube.com/watch?v=nGfdhrJHSHM&list=PLJATv1N_YfsHwnCksU07l9FHECFYzp_oE',
+	},
+	'kid-chef-part4': {
+		url: 'https://www.youtube.com/watch?v=D8Xix7YXk34&list=PLJATv1N_YfsFO6HAwfwVrgyF5Hc96hQ8p',
+	},
 	'higglytown-heroes-s1-ep3': {
 		url: 'https://www.youtube.com/watch?v=DjW4c9UxScY',
 	},
@@ -90,6 +96,12 @@ const movieObj = {
 	},
 	'kid-cooking': {
 		url: 'https://www.youtube.com/watch?v=aP8v8G1CkCI',
+	},
+	'ride-a-bike-part01': {
+		url: 'https://www.youtube.com/watch?v=2Uv-0ePaC5U&list=PLJATv1N_YfsH4TrF-w_C5jaEij8t7hggv',
+	},
+	'word-world-red-ruby': {
+		url: 'https://www.youtube.com/watch?v=SKo54F8vXCQ',
 	},
 }
 

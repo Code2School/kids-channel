@@ -21,15 +21,37 @@ import pocoyo_s2_p5 from '../../images/movies/pocoyo_s2_p5.webp';
 import pocoyo_s1_p2 from '../../images/movies/pocoyo_s1_p2.webp';
 import kid_chef_part1 from '../../images/movies/kid_chef_part1.webp';
 import kid_chef_part2 from '../../images/movies/kid_chef_part2.webp';
+import kid_chef_part3 from '../../images/movies/kid_chef_part3.webp';
+import kid_chef_part4 from '../../images/movies/kid_chef_part4.webp';
 import barney_a_counting from '../../images/movies/barney_a_counting.webp';
 import our_planet_coastal_sea from '../../images/movies/our_planet_coastal_sea.webp';
 import higgletown_heroes_s1_ep3 from '../../images/movies/higgletown_heroes_s1_ep3.webp';
 import winnie_the_pooh_part03 from '../../images/movies/winnie_the_pooh_part03.webp';
 import barney_count_on_me from '../../images/movies/barney_count_on_me.webp';
 import kid_cooking from '../../images/movies/kid_cooking.webp';
+import ride_a_bike_part01 from '../../images/movies/ride_a_bike_part01.webp';
+import word_world_red_ruby from '../../images/movies/word_world_red_ruby.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
+	{
+		id: 'KID_CHEF_PART3',
+		name: 'Kid chef part 03',
+		url: kid_chef_part3,
+		to: '/movies/kid-chef-part3'
+	},
+	{
+		id: 'RIDE_A_BIKE_PART01',
+		name: 'Ride a bike part 01',
+		url: ride_a_bike_part01,
+		to: '/movies/ride-a-bike-part01'
+	},
+	{
+		id: 'WORD_WORLD_RED_RUBY',
+		name: 'The Really Red Ruby/M is for Map | WordWorld',
+		url: word_world_red_ruby,
+		to: '/movies/word-world-red-ruby'
+	},
 	{
 		id: 'KID_COOKING',
 		name: 'Kid MasterChef vs Adult Tasty Chef',
@@ -41,6 +63,12 @@ const movies = [
 		name: 'Winnie the Pooh part 03',
 		url: winnie_the_pooh_part03,
 		to: '/movies/winnie-the-pooh-part03'
+	},
+	{
+		id: 'KID_CHEF_PART4',
+		name: 'Kid chef part 04',
+		url: kid_chef_part4,
+		to: '/movies/kid-chef-part4'
 	},
 	{
 		id: 'BARNEY_CAN_COUNT_ON_ME',
