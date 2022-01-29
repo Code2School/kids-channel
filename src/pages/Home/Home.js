@@ -47,28 +47,28 @@ const movies = [
 		to: '/movies/ride-a-bike-part01'
 	},
 	{
-		id: 'WORD_WORLD_RED_RUBY',
-		name: 'The Really Red Ruby/M is for Map | WordWorld',
-		url: word_world_red_ruby,
-		to: '/movies/word-world-red-ruby'
-	},
-	{
 		id: 'KID_COOKING',
 		name: 'Kid MasterChef vs Adult Tasty Chef',
 		url: kid_cooking,
 		to: '/movies/kid-cooking'
 	},
 	{
-		id: 'WINNIE_THE_POOH_PART03',
-		name: 'Winnie the Pooh part 03',
-		url: winnie_the_pooh_part03,
-		to: '/movies/winnie-the-pooh-part03'
-	},
-	{
 		id: 'KID_CHEF_PART4',
 		name: 'Kid chef part 04',
 		url: kid_chef_part4,
 		to: '/movies/kid-chef-part4'
+	},
+	{
+		id: 'WORD_WORLD_RED_RUBY',
+		name: 'The Really Red Ruby/M is for Map | WordWorld',
+		url: word_world_red_ruby,
+		to: '/movies/word-world-red-ruby'
+	},
+	{
+		id: 'WINNIE_THE_POOH_PART03',
+		name: 'Winnie the Pooh part 03',
+		url: winnie_the_pooh_part03,
+		to: '/movies/winnie-the-pooh-part03'
 	},
 	{
 		id: 'BARNEY_CAN_COUNT_ON_ME',
