@@ -31,6 +31,8 @@ import barney_count_on_me from '../../images/movies/barney_count_on_me.webp';
 import kid_cooking from '../../images/movies/kid_cooking.webp';
 import ride_a_bike_part01 from '../../images/movies/ride_a_bike_part01.webp';
 import word_world_red_ruby from '../../images/movies/word_world_red_ruby.webp';
+import winnie_the_pooh_123 from '../../images/movies/winnie_the_pooh_123.webp';
+import big_red_dog_circus from '../../images/movies/big_red_dog_circus.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
@@ -41,10 +43,16 @@ const movies = [
 		to: '/movies/kid-chef-part3'
 	},
 	{
-		id: 'RIDE_A_BIKE_PART01',
-		name: 'Ride a bike part 01',
-		url: ride_a_bike_part01,
-		to: '/movies/ride-a-bike-part01'
+		id: 'WINNIE_THE_POOH_PART_MOVIE_123',
+		name: 'WINNIE THE POOH - 123',
+		url: winnie_the_pooh_123,
+		to: '/movies/winnie-the-pooh-123'
+	},
+	{
+		id: 'BIG_RED_DOG_CIRCUS',
+		name: 'Clifford - Circus Star',
+		url: big_red_dog_circus,
+		to: '/movies/big-red-dog-circus-star'
 	},
 	{
 		id: 'KID_COOKING',
@@ -57,6 +65,12 @@ const movies = [
 		name: 'Kid chef part 04',
 		url: kid_chef_part4,
 		to: '/movies/kid-chef-part4'
+	},
+	{
+		id: 'RIDE_A_BIKE_PART01',
+		name: 'Ride a bike part 01',
+		url: ride_a_bike_part01,
+		to: '/movies/ride-a-bike-part01'
 	},
 	{
 		id: 'WORD_WORLD_RED_RUBY',

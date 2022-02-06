@@ -103,6 +103,12 @@ const movieObj = {
 	'word-world-red-ruby': {
 		url: 'https://www.youtube.com/watch?v=SKo54F8vXCQ',
 	},
+	'winnie-the-pooh-123': {
+		url: 'https://www.youtube.com/watch?v=_XwmBXize-A',
+	},
+	'big-red-dog-circus-star': {
+		url: 'https://www.youtube.com/watch?v=zfIzZx1ZQrU',
+	},
 }
 
 const Movie = () => {
