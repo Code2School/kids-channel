@@ -33,6 +33,7 @@ import ride_a_bike_part01 from '../../images/movies/ride_a_bike_part01.webp';
 import word_world_red_ruby from '../../images/movies/word_world_red_ruby.webp';
 import winnie_the_pooh_123 from '../../images/movies/winnie_the_pooh_123.webp';
 import big_red_dog_circus from '../../images/movies/big_red_dog_circus.webp';
+import ariel_ep01 from '../../images/movies/ariel_ep01.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
@@ -43,10 +44,10 @@ const movies = [
 		to: '/movies/kid-chef-part3'
 	},
 	{
-		id: 'WINNIE_THE_POOH_PART_MOVIE_123',
-		name: 'WINNIE THE POOH - 123',
-		url: winnie_the_pooh_123,
-		to: '/movies/winnie-the-pooh-123'
+		id: 'ARIEL_EP01',
+		name: 'Ariel - episode 01',
+		url: ariel_ep01,
+		to: '/movies/ariel-ep01'
 	},
 	{
 		id: 'BIG_RED_DOG_CIRCUS',
@@ -65,6 +66,12 @@ const movies = [
 		name: 'Kid chef part 04',
 		url: kid_chef_part4,
 		to: '/movies/kid-chef-part4'
+	},
+	{
+		id: 'WINNIE_THE_POOH_PART_MOVIE_123',
+		name: 'WINNIE THE POOH - 123',
+		url: winnie_the_pooh_123,
+		to: '/movies/winnie-the-pooh-123'
 	},
 	{
 		id: 'RIDE_A_BIKE_PART01',

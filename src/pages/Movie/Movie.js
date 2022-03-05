@@ -109,6 +109,9 @@ const movieObj = {
 	'big-red-dog-circus-star': {
 		url: 'https://www.youtube.com/watch?v=zfIzZx1ZQrU',
 	},
+	'ariel-ep01': {
+		url: 'https://www.youtube.com/watch?v=P9syZLS_Hdo&list=PLJATv1N_YfsHxmZAqFuL7z5anBHVvcfpB',
+	},
 }
 
 const Movie = () => {
