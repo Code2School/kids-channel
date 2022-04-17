@@ -121,6 +121,9 @@ const movieObj = {
 	'winnie-the-pooh-part04': {
 		url: 'https://www.youtube.com/watch?v=ehOKBYxMCIg',
 	},
+	'i-can-cook-s3e1': {
+		url: 'https://www.youtube.com/watch?v=eZSQgZWdEoQ',
+	},
 }
 
 const Movie = () => {

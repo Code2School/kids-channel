@@ -12,13 +12,13 @@
 }
 
 .selectionBlock {
-    display: flex;
-    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
 
 .block {
-    width: 285px;
-    height: 168px;
+    width: 360px;
     border-radius: 4px;
     background-color: #333;
     overflow: hidden;
@@ -28,10 +28,6 @@
 
 .block:hover {
     border-color: #fff;
-}
-
-.block:not(:last-child) {
-    margin-right: 32px;
 }
 
 .block img {

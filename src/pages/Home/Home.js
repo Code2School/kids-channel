@@ -37,6 +37,7 @@ import ariel_ep01 from '../../images/movies/ariel_ep01.webp';
 import bible_easter from '../../images/movies/bible_easter.webp';
 import barney_space_adventure from '../../images/movies/barney_space_adventure.webp';
 import winnie_the_pooh_part04 from '../../images/movies/winnie_the_pooh_part04.webp';
+import i_can_cook_s3e1 from '../../images/movies/i_can_cook_s3e1.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
@@ -57,6 +58,12 @@ const movies = [
 		name: 'Winnie the Pooh part 04',
 		url: winnie_the_pooh_part04,
 		to: '/movies/winnie-the-pooh-part04'
+	},
+	{
+		id: 'I_CAN_COOK_S3E1',
+		name: 'I Can Cook Season 3 Compilation #1 | Easy Recipes | Kids Craft Channel',
+		url: i_can_cook_s3e1,
+		to: '/movies/i-can-cook-s3e1'
 	},
 	{
 		id: 'KID_CHEF_PART3',
@@ -272,7 +279,7 @@ const Home = () => {
 					<h1 className={classes.title}>Choose a movie</h1>
 				</header>
 				<section className={classes.selectionBlock}>
-					{movies.slice(0, 3).map(({ id, name, url, to }) => (
+					{movies.slice(0, 4).map(({ id, name, url, to }) => (
 						<Link key={id} className={classes.block} to={to}>
 							<img src={url} alt={name} />
 						</Link>
