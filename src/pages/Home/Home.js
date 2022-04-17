@@ -34,9 +34,30 @@ import word_world_red_ruby from '../../images/movies/word_world_red_ruby.webp';
 import winnie_the_pooh_123 from '../../images/movies/winnie_the_pooh_123.webp';
 import big_red_dog_circus from '../../images/movies/big_red_dog_circus.webp';
 import ariel_ep01 from '../../images/movies/ariel_ep01.webp';
+import bible_easter from '../../images/movies/bible_easter.webp';
+import barney_space_adventure from '../../images/movies/barney_space_adventure.webp';
+import winnie_the_pooh_part04 from '../../images/movies/winnie_the_pooh_part04.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
+	{
+		id: 'BIBLE_EASTER',
+		name: 'Jesus\' Sacrifice + More of the Easter Story',
+		url: bible_easter,
+		to: '/movies/bible-easter'
+	},
+	{
+		id: 'BARNEY_A_SPACE_ADVENTURE',
+		name: 'Barney |The Misbegotten Moon: A Space Adventure',
+		url: barney_space_adventure,
+		to: '/movies/barney-a-space-adventure'
+	},
+	{
+		id: 'WINNIE_THE_POOH_PART04',
+		name: 'Winnie the Pooh part 04',
+		url: winnie_the_pooh_part04,
+		to: '/movies/winnie-the-pooh-part04'
+	},
 	{
 		id: 'KID_CHEF_PART3',
 		name: 'Kid chef part 03',

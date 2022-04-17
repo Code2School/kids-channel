@@ -112,6 +112,15 @@ const movieObj = {
 	'ariel-ep01': {
 		url: 'https://www.youtube.com/watch?v=P9syZLS_Hdo&list=PLJATv1N_YfsHxmZAqFuL7z5anBHVvcfpB',
 	},
+	'bible-easter': {
+		url: 'https://www.youtube.com/watch?v=s6ggrHPkWsU',
+	},
+	'barney-a-space-adventure': {
+		url: 'https://www.youtube.com/watch?v=ehOKBYxMCIg',
+	},
+	'winnie-the-pooh-part04': {
+		url: 'https://www.youtube.com/watch?v=ehOKBYxMCIg',
+	},
 }
 
 const Movie = () => {
