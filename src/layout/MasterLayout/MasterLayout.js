@@ -5,7 +5,7 @@ import logo from '../../images/minnie_house.png';
 const MasterLayout = (props) => {
 	const { children } = props;
 	return (
-		<main>
+		<main className={classes.pageContainer}>
 			<nav className={classes.topNav}>
 				<Link to="/" className={classes.logo}>
 					<img src={logo} alt="logo" />

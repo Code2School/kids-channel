@@ -124,6 +124,15 @@ const movieObj = {
 	'i-can-cook-s3e1': {
 		url: 'https://www.youtube.com/watch?v=eZSQgZWdEoQ',
 	},
+	'barney-halloween-guess-who': {
+		url: 'https://www.youtube.com/watch?v=jT5trjBAgGQ',
+	},
+	'big-red-dog-the-halloween-bandit': {
+		url: 'https://www.youtube.com/watch?v=NT9mewtE1e8',
+	},
+	'winnie-the-pooh-boo-to-you': {
+		url: 'https://www.youtube.com/watch?v=pY0WozcsShc',
+	},
 }
 
 const Movie = () => {

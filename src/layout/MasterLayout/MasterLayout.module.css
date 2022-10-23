@@ -2,6 +2,10 @@
 
 }
 
+.pageContainer {
+    background-image: url("../../images/halloween_background.webp");
+}
+
 .logo {
     display: flex;
     color: #e50914;

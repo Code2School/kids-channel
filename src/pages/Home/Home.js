@@ -38,9 +38,30 @@ import bible_easter from '../../images/movies/bible_easter.webp';
 import barney_space_adventure from '../../images/movies/barney_space_adventure.webp';
 import winnie_the_pooh_part04 from '../../images/movies/winnie_the_pooh_part04.webp';
 import i_can_cook_s3e1 from '../../images/movies/i_can_cook_s3e1.webp';
+import barney_halloween_guess_who from '../../images/movies/barney_halloween_guess_who.webp';
+import winnie_boo_to_you from '../../images/movies/winnie_boo_to_you.webp';
+import big_red_dog_halloween_bandit from '../../images/movies/big_red_dog_halloween_bandit.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
+	{
+		id: 'BIG_RED_DOG_HALLOWEEN_BANDIT',
+		name: 'Puppy Days🐶🎃 - The Halloween Bandit | An Honest Spin',
+		url: big_red_dog_halloween_bandit,
+		to: '/movies/big-red-dog-the-halloween-bandit'
+	},
+	{
+		id: 'WINNIE_THE_POOH_BOO_TO_YOU',
+		name: 'Boo to You Too! Winnie the Pooh',
+		url: winnie_boo_to_you,
+		to: '/movies/winnie-the-pooh-boo-to-you'
+	},
+	{
+		id: 'BARNEY_HALLOWEEN_GUESS_WHO',
+		name: 'Barney|FULL Episode |Guess Who?',
+		url: barney_halloween_guess_who,
+		to: '/movies/barney-halloween-guess-who'
+	},
 	{
 		id: 'BIBLE_EASTER',
 		name: 'Jesus\' Sacrifice + More of the Easter Story',
@@ -279,7 +300,7 @@ const Home = () => {
 					<h1 className={classes.title}>Choose a movie</h1>
 				</header>
 				<section className={classes.selectionBlock}>
-					{movies.slice(0, 4).map(({ id, name, url, to }) => (
+					{movies.slice(0, 3).map(({ id, name, url, to }) => (
 						<Link key={id} className={classes.block} to={to}>
 							<img src={url} alt={name} />
 						</Link>
