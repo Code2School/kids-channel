@@ -41,20 +41,34 @@ import i_can_cook_s3e1 from '../../images/movies/i_can_cook_s3e1.webp';
 import barney_halloween_guess_who from '../../images/movies/barney_halloween_guess_who.webp';
 import winnie_boo_to_you from '../../images/movies/winnie_boo_to_you.webp';
 import big_red_dog_halloween_bandit from '../../images/movies/big_red_dog_halloween_bandit.webp';
+import word_world_giant from '../../images/movies/word_world_giant.webp';
+import little_einsteins_s1_e1 from '../../images/movies/little_einsteins_s1_e1.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
-	{
-		id: 'BIG_RED_DOG_HALLOWEEN_BANDIT',
-		name: 'Puppy Days🐶🎃 - The Halloween Bandit | An Honest Spin',
-		url: big_red_dog_halloween_bandit,
-		to: '/movies/big-red-dog-the-halloween-bandit'
-	},
 	{
 		id: 'WINNIE_THE_POOH_BOO_TO_YOU',
 		name: 'Boo to You Too! Winnie the Pooh',
 		url: winnie_boo_to_you,
 		to: '/movies/winnie-the-pooh-boo-to-you'
+	},
+	{
+		id: 'WORD_WORLD_GIANT',
+		name: 'There\'s an Ant in Every Giant/Chef Sheep | WordWorld',
+		url: word_world_giant,
+		to: '/movies/word-world-giant'
+	},
+	{
+		id: 'LITTLE_EINSTEINS_S1_E1',
+		name: 'Little Einsteins || Rocket the Bug || Little Elephant\'s Big Parade! Little Einsteins',
+		url: little_einsteins_s1_e1,
+		to: '/movies/little-einsteins-s1-e1'
+	},
+	{
+		id: 'BIG_RED_DOG_HALLOWEEN_BANDIT',
+		name: 'Puppy Days🐶🎃 - The Halloween Bandit | An Honest Spin',
+		url: big_red_dog_halloween_bandit,
+		to: '/movies/big-red-dog-the-halloween-bandit'
 	},
 	{
 		id: 'BARNEY_HALLOWEEN_GUESS_WHO',

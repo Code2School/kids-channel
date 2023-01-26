@@ -133,6 +133,12 @@ const movieObj = {
 	'winnie-the-pooh-boo-to-you': {
 		url: 'https://www.youtube.com/watch?v=pY0WozcsShc',
 	},
+	'word-world-giant': {
+		url: 'https://www.youtube.com/watch?v=CmAo9A0J1XY',
+	},
+	'little-einsteins-s1-e1': {
+		url: 'https://www.youtube.com/watch?v=kbC4sxf4sbM',
+	},
 }
 
 const Movie = () => {
