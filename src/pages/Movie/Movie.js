@@ -139,6 +139,12 @@ const movieObj = {
 	'little-einsteins-s1-e1': {
 		url: 'https://www.youtube.com/watch?v=kbC4sxf4sbM',
 	},
+	'frozen-full-movie': {
+		url: 'https://www.youtube.com/watch?v=jLX2bt4ZnS8',
+	},
+	'ratatouille-full-movie': {
+		url: 'https://www.youtube.com/watch?v=B5JOTWsXtT4',
+	},
 }
 
 const Movie = () => {

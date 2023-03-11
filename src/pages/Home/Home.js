@@ -43,14 +43,28 @@ import winnie_boo_to_you from '../../images/movies/winnie_boo_to_you.webp';
 import big_red_dog_halloween_bandit from '../../images/movies/big_red_dog_halloween_bandit.webp';
 import word_world_giant from '../../images/movies/word_world_giant.webp';
 import little_einsteins_s1_e1 from '../../images/movies/little_einsteins_s1_e1.webp';
+import frozen from '../../images/movies/frozen.webp';
+import ratatouille from '../../images/movies/ratatouille.webp';
 import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
 	{
-		id: 'WINNIE_THE_POOH_BOO_TO_YOU',
-		name: 'Boo to You Too! Winnie the Pooh',
-		url: winnie_boo_to_you,
-		to: '/movies/winnie-the-pooh-boo-to-you'
+		id: 'RATATOUILLE',
+		name: 'Ratatouille Full Movie',
+		url: ratatouille,
+		to: '/movies/ratatouille-full-movie'
+	},
+	{
+		id: 'FROZEN',
+		name: 'Frozen Full Movie',
+		url: frozen,
+		to: '/movies/frozen-full-movie'
+	},
+	{
+		id: 'LITTLE_EINSTEINS_S1_E1',
+		name: 'Little Einsteins || Rocket the Bug || Little Elephant\'s Big Parade! Little Einsteins',
+		url: little_einsteins_s1_e1,
+		to: '/movies/little-einsteins-s1-e1'
 	},
 	{
 		id: 'WORD_WORLD_GIANT',
@@ -59,10 +73,10 @@ const movies = [
 		to: '/movies/word-world-giant'
 	},
 	{
-		id: 'LITTLE_EINSTEINS_S1_E1',
-		name: 'Little Einsteins || Rocket the Bug || Little Elephant\'s Big Parade! Little Einsteins',
-		url: little_einsteins_s1_e1,
-		to: '/movies/little-einsteins-s1-e1'
+		id: 'WINNIE_THE_POOH_BOO_TO_YOU',
+		name: 'Boo to You Too! Winnie the Pooh',
+		url: winnie_boo_to_you,
+		to: '/movies/winnie-the-pooh-boo-to-you'
 	},
 	{
 		id: 'BIG_RED_DOG_HALLOWEEN_BANDIT',
