@@ -49,12 +49,6 @@ import MasterLayout from '../../layout/MasterLayout/MasterLayout';
 
 const movies = [
 	{
-		id: 'RATATOUILLE',
-		name: 'Ratatouille Full Movie',
-		url: ratatouille,
-		to: '/movies/ratatouille-full-movie'
-	},
-	{
 		id: 'FROZEN',
 		name: 'Frozen Full Movie',
 		url: frozen,
@@ -65,6 +59,12 @@ const movies = [
 		name: 'Little Einsteins || Rocket the Bug || Little Elephant\'s Big Parade! Little Einsteins',
 		url: little_einsteins_s1_e1,
 		to: '/movies/little-einsteins-s1-e1'
+	},
+	{
+		id: 'RATATOUILLE',
+		name: 'Ratatouille Full Movie',
+		url: ratatouille,
+		to: '/movies/ratatouille-full-movie'
 	},
 	{
 		id: 'WORD_WORLD_GIANT',
